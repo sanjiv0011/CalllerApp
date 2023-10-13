@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="none"	thread-count="1">
+	
+		<listeners>
+			<listener class-name="com.dialer.Utilities.ExtentReport"></listener>
+		</listeners>
+		
+		<parameter name="write here parameter name" value="write parameter value"></parameter><!-- value is only [currently not using any parameter value]-->
+		
+		<test name="Call Dailer">
+			
+		    <classes>
+			  
+				<class name="com.dialer.TestCases.TC_Home"/>
+				    
+		    </classes>
+			    
+	    </test>
+	    
+</suite>
